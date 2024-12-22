@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите тип животного:"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerAnimalType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/animal_types" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Введите имя" />
+
+    <EditText
+        android:id="@+id/inputAge"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Введите возраст"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputUniqueField"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Введите породу или цвет" />
+
+    <Button
+        android:id="@+id/buttonShowInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать информацию" />
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        android:text="Информация о животном появится здесь." />
+
+</LinearLayout>

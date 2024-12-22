@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dop_zadanie_3</string>
+    <string-array name="animal_types">
+        <item>Собака</item>
+        <item>Кошка</item>
+    </string-array>
+</resources>
